@@ -278,8 +278,9 @@ nav i {
 
 .feed-item {
     border-bottom: 2px solid #cfcacb;
-    height: 175px;
-    
+    /*height: 175px;*/
+    overflow: auto;
+    padding-bottom: 25px;
 }
 
 .feed-item h3 {
@@ -583,8 +584,10 @@ footer {
     .top-story {
         width: 100%;
         clear: both;
-        height: 300px;
-        padding-top: 50px;
+        /*height: 300px;*/
+        overflow: auto;
+        padding-top: 70px;
+        padding-bottom: 30px;
     }
     
 
@@ -610,12 +613,12 @@ footer {
 
     /*---------REVIEW INDEX----------*/
 
-    .top-story {
+    /*.top-story {
         width: 100%;
         clear: both;
         height: 300px;
         padding-top: 50px;
-    }
+    }*/
     
 
     #review-img {
@@ -797,7 +800,7 @@ footer {
 
     .detail-content {
         float: left;
-        border-bottom: 2px solid #cfcacb;
+       /* border-bottom: 2px solid #cfcacb;*/
         padding-bottom: 10px;
     }
 
@@ -943,13 +946,15 @@ footer {
 
     .hero-area {
         width: 100%;
-        height: 740px;
+        /*height: 740px;*/
+        overflow: auto;
         border-bottom: 2px solid #cfcacb;
     }
     
     .top-story {
         width:65%;
         float:left;
+        border: none;
     }
     #top-img {
         width:100%;
