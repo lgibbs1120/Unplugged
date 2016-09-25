@@ -95,6 +95,10 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/*////           
+GLOBAL
+////*/
+
 @font-face {
   font-family: 'FontAwesome';
   src: url('fonts/fontawesome.otf') format('opentype');
@@ -136,20 +140,8 @@ h1,h2,h3,h4 {
     color: #222222;
 }
 
-h1 {
-
-}
-
 h2 {
     text-transform: uppercase;
-}
-
-h3 {
-
-}
-
-h4 {
-
 }
 
 .btn {
@@ -175,14 +167,13 @@ img {
 }
 
 
-/*//////////////           
-MAIN INDEX PAGE
-/////////////*/
+/*//////////////////           
+MAIN/NEWS INDEX PAGE
+//////////////////*/
 
 /*--------------------
 --------HEADER--------
 --------------------*/
-
 header {
     width: 100%;
     margin: auto;
@@ -237,7 +228,6 @@ nav i {
 /*--------------------------
 --------MAIN CONTENT--------
 --------------------------*/
-
 #main-content {
     width: 96%;
     padding: 0 2%;
@@ -295,7 +285,6 @@ nav i {
 /*------------------
 --------FEED--------
 ------------------*/
-
 .feed {
     width: 100%;
 }
@@ -331,6 +320,16 @@ nav i {
 REVIEW INDEX PAGE
 ///////////////*/
 
+/*--------------------------
+--------MAIN CONTENT--------
+--------------------------*/
+#review-info a h1:hover {
+    color: #23a4cc;
+}
+
+/*------------------
+--------FEED--------
+------------------*/
 .review-feed {
     width: 100%;
 }
@@ -364,6 +363,9 @@ REVIEW INDEX PAGE
 ABOUT INDEX PAGE
 //////////////*/
 
+/*--------------------------
+--------MAIN CONTENT--------
+--------------------------*/
 .contact-us {
     font-size: 16px;
     margin-left: 8%;
@@ -388,6 +390,9 @@ ABOUT INDEX PAGE
     font-weight: normal;
 }
 
+/*-----------------
+--------MAP--------
+-----------------*/
 .map-container {
     position: relative;
     padding-bottom: 75%;
@@ -406,11 +411,17 @@ ABOUT INDEX PAGE
     height: 100%;
 }
 
+/*---------------------
+--------MISSION--------
+---------------------*/
 .mission {
     width: 90%;
     margin: auto;
 }
 
+/*------------------
+--------TEAM--------
+------------------*/
 .team {
     width: 90%;
     margin: auto;
@@ -469,9 +480,8 @@ ALL  PAGES
 /////////*/
 
 /*--------------------
---------Footer--------
+--------FOOTER--------
 --------------------*/
-
 footer {
     width: 60%;
     margin: auto;
@@ -482,8 +492,7 @@ footer {
     width: 100%;
     height: auto;
     margin: auto;
-    margin-top: 25px;
-    
+    margin-top: 25px;    
 }
 
 /* ==========================================================================
