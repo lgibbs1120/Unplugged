@@ -174,7 +174,14 @@ img {
     height: auto;
 }
 
-/*-----Header-----*/
+
+/*//////////////           
+MAIN INDEX PAGE
+/////////////*/
+
+/*--------------------
+--------HEADER--------
+--------------------*/
 
 header {
     width: 100%;
@@ -185,6 +192,10 @@ header {
     width: 90%;
     margin: auto;
     text-align: center;
+}
+
+#logo a:hover {
+    color: #23a4cc;
 }
 
 nav {
@@ -211,6 +222,10 @@ nav ul li a {
     color: black;
 }
 
+nav ul li a:hover {
+    color: red;
+}
+
 nav i {
     padding-right: 3%;
 }
@@ -219,7 +234,9 @@ nav i {
     display: none;
 }
 
-/*-----Main-Content-----*/
+/*--------------------------
+--------MAIN CONTENT--------
+--------------------------*/
 
 #main-content {
     width: 96%;
@@ -238,8 +255,13 @@ nav i {
     padding-top: 15px;
 }
 
-/*-----Aside-----*/
+#top-info a h1:hover {
+    color: #23a4cc;
+}
 
+/*-------------------
+--------ASIDE--------
+-------------------*/
 .side-bar {
     width: 100%;
 }
@@ -270,7 +292,9 @@ nav i {
     display: none;
 }
 
-/*-----Feed-----*/
+/*------------------
+--------FEED--------
+------------------*/
 
 .feed {
     width: 100%;
@@ -280,10 +304,6 @@ nav i {
     border-bottom: 2px solid #cfcacb;
     overflow: auto;
     padding-bottom: 25px;
-}
-
-.feed-item h3 {
-    ;
 }
 
 .feed-item p {
@@ -306,7 +326,10 @@ nav i {
     color: #23a4cc;
 }
 
-/*----------REVIEW DETAIL-----------*/
+
+/*///////////////           
+REVIEW INDEX PAGE
+///////////////*/
 
 .review-feed {
     width: 100%;
@@ -337,7 +360,9 @@ nav i {
 }
 
 
-/*-----ABOUT PAGE-----*/
+/*///////////////           
+ABOUT INDEX PAGE
+//////////////*/
 
 .contact-us {
     font-size: 16px;
@@ -426,7 +451,6 @@ nav i {
 .team-name {
     text-transform: none;
     margin: 0px;
-    float: ;
     padding-left: 200px;
 }
 
@@ -439,7 +463,14 @@ nav i {
     display: none;
 }
 
-/*-----Footer-----*/
+
+/*/////////          
+ALL  PAGES
+/////////*/
+
+/*--------------------
+--------Footer--------
+--------------------*/
 
 footer {
     width: 60%;
